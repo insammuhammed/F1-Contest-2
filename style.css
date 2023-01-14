@@ -1,0 +1,91 @@
+*{
+  margin: 2px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.sidebar img {
+    height: 168px;
+    width: 159px;
+     border-radius: 50%;
+    
+}
+
+.main{
+    display: flex;
+    position: relative;
+}
+
+.main .sidebar{
+    box-sizing: border-box;
+    position: fixed;
+    height: 100%; 
+    width: 25%; 
+    background-color:hsl(0, 2%, 24%); 
+    padding: 30px;
+    margin-top: 22px;
+    margin-bottom: 10%;
+    border-radius: 50px;
+  }
+.main .sidebar h3, h5{
+    text-align: center;
+}
+
+.sidebar button {
+    width: 72%;
+    height: 37px;
+    color: azure;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+     margin-left: 46px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.section1 {
+    width: 78%;
+    height: 100%;
+    margin-left: 28%;
+    margin-right: 5px;
+    background-color: hsl(0, 2%, 24%);
+    border-radius: 50px;
+
+}
+.section1 img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    justify-content: left;
+}
+
+.section2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 67%;
+    height: 70%;
+    left: 31%;
+    top: 108%;
+    background: hsl(0, 2%, 24%);
+    border-radius: 50px;
+}
+ 
+table, th, td {
+    border: 1px solid white;
+    border-collapse:collapse;
+    border-radius: 10px;
+  }
+
+
+
+
+
